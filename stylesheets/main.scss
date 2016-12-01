@@ -1,0 +1,158 @@
+@import "partials/buttons";
+@import "partials/variablesandclasses";
+@import "partials/books";
+
+header {
+  text-align: center;
+  overflow: hidden;
+  z-index: 3;
+
+
+}
+.header-container {
+  padding: 10px 20px;
+  background: #ebebeb;
+  overflow: hidden;
+  width: 100%;
+  top:0px;
+  margin-bottom: 0px;
+  position: fixed;
+    z-index: 3;
+
+  .logo{
+      margin: 0 auto;
+      float: left;
+      width: 200px;
+      text-align: left;
+      img {
+        height:45px;
+      }
+    }
+  nav {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 11px;
+    ul {
+      margin: 0 auto;
+      padding: 0px;
+      li {
+        display: inline-block;
+        padding: 0px 20px;
+        a {
+          color: #23747c;
+          text-decoration: none;
+          }
+          a:hover{
+            border-bottom: 3px solid $lightgreen;
+            padding-bottom: 5px;
+          }
+         }
+        }
+       }
+.search {
+  float: right;
+  text-align: right;
+  width: 200px;
+  margin-top: 10px;
+  img {
+    height: 27px;
+
+  }
+ }
+}
+
+
+.hero {
+
+ img {
+   width: 100%;
+   position: fixed;
+   top: 65px;
+   z-index: -1;
+ }
+  h1 {
+      text-align: center;
+      font-size: 190px;
+      color: white;
+      padding-top: 20%;
+      margin-top: 0px;
+      position: relative;
+      top: 50px;
+    }
+  }
+
+
+main {
+  clear:both;
+  width: 100%;
+  background-color: white;
+  margin-top: 0px;
+  .navigation {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    .menus {
+      width: 100%;
+      overflow: hidden;
+      .left-boxes {
+        width: 50%;
+        overflow: hidden;
+        display: inline-block;
+        float: left;
+      }
+    button {
+    display: inline-block;
+    }
+  .search-field {
+    overflow: hidden;
+    img {
+      height: 25px;
+      float: left;
+      position: relative;
+      top: 2px;
+     }
+    }
+   }
+  }
+ }
+
+ .flex-box {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-bottom: 50px;
+ }
+
+ footer {
+   background-color: $footer;
+   overflow: hidden;
+   ul{
+     padding: 0px;
+     display: inline-block;
+     margin-right: 10px;
+   }
+   li {
+     display: block;
+     margin: 6px;
+     a {
+       color: $footertext;
+       font-size: 12px;
+     }
+   }
+.logo-footer {
+  overflow: hidden;
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding-top: 70px;
+}
+   img {
+     height: 45px;
+   }
+   p {
+  color: $footertext;
+  margin-bottom: 0px;
+  font-size: 11px;
+   }
+ }

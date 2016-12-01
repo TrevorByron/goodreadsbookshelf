@@ -1,14 +1,17 @@
-@import "mixins";
+@import "variablesandclasses";
 
 button {
   color: $darkgreen;
   border: 1px solid $lightgreen;
   height: 30px;
-  width: 49%;
+  width: 48%;
   background-color: white;
   display: inline;
   }
 
+  button:hover {
+    background-color: red;
+  }
 .right{
   float: right;
 }

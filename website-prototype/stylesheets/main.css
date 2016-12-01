@@ -7,9 +7,12 @@ button {
   color: #003d3d;
   border: 1px solid #46898f;
   height: 30px;
-  width: 49%;
+  width: 48%;
   background-color: white;
   display: inline; }
+
+button:hover {
+  background-color: red; }
 
 .right {
   float: right; }
@@ -95,6 +98,9 @@ header {
         .header-container nav ul li a {
           color: #23747c;
           text-decoration: none; }
+        .header-container nav ul li a:hover {
+          border-bottom: 3px solid #46898f;
+          padding-bottom: 5px; }
   .header-container .search {
     float: right;
     text-align: right;
@@ -119,7 +125,6 @@ header {
 
 main {
   clear: both;
-  text-align: center;
   width: 100%;
   background-color: white;
   margin-top: 0px; }
@@ -148,10 +153,12 @@ main {
 .flex-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-bottom: 50px; }
 
 footer {
-  background-color: #b7b7b7; }
+  background-color: #c7c5c5;
+  overflow: hidden; }
   footer ul {
     padding: 0px;
     display: inline-block;
@@ -160,13 +167,19 @@ footer {
     display: block;
     margin: 6px; }
     footer li a {
-      color: #46898f;
+      color: #9b9a9a;
       font-size: 12px; }
-  footer img {
-    height: 150px;
+  footer .logo-footer {
+    overflow: hidden;
+    text-align: right;
+    display: inline-block;
     float: right;
-    position: relative;
-    right: -100px;
-    bottom: -25px; }
+    padding-top: 70px; }
+  footer img {
+    height: 45px; }
+  footer p {
+    color: #9b9a9a;
+    margin-bottom: 0px;
+    font-size: 11px; }
 
 /*# sourceMappingURL=main.css.map */
