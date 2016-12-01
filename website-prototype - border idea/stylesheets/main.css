@@ -1,0 +1,154 @@
+.container {
+  padding: 25px 100px;
+  margin: 0px;
+  width: 100%; }
+
+button {
+  color: #003d3d;
+  border: 1px solid #003d3d;
+  height: 30px;
+  width: 49%;
+  background-color: white;
+  display: inline; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.search-field {
+  border-radius: 30px;
+  float: right;
+  color: #003d3d;
+  border: 1px solid #003d3d;
+  height: 30px;
+  width: 20%;
+  background-color: white;
+  display: inline;
+  padding-left: 10px;
+  text-align: left; }
+  .search-field a {
+    color: #003d3d;
+    text-decoration: none; }
+
+.container {
+  padding: 25px 100px;
+  margin: 0px;
+  width: 100%; }
+
+.book-display {
+  height: 275px;
+  width: 25%;
+  border: 1px solid white;
+  margin-top: 20px;
+  text-align: left; }
+  .book-display img {
+    height: 210px; }
+  .book-display h3 {
+    font-size: 13px;
+    color: #003d3d;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .book-display h4 {
+    font-size: 13px;
+    color: #46898f;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .book-display i {
+    color: #F8D64E; }
+
+header {
+  text-align: center;
+  overflow: hidden;
+  z-index: 3; }
+
+.header-container {
+  padding: 10px 20px;
+  background: #ebebeb;
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+  margin-bottom: 0px;
+  position: fixed;
+  z-index: 3; }
+  .header-container .logo {
+    margin: 0 auto;
+    float: left;
+    width: 200px;
+    text-align: left; }
+    .header-container .logo img {
+      height: 45px; }
+  .header-container nav {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 11px; }
+    .header-container nav ul {
+      margin: 0 auto;
+      padding: 0px; }
+      .header-container nav ul li {
+        display: inline-block;
+        padding: 0px 20px; }
+        .header-container nav ul li a {
+          color: #23747c;
+          text-decoration: none; }
+  .header-container .search {
+    float: right;
+    text-align: right;
+    width: 200px;
+    margin-top: 10px; }
+    .header-container .search img {
+      height: 27px; }
+
+.hero img {
+  width: 100%;
+  position: fixed;
+  top: 65px;
+  z-index: -1; }
+.hero h1 {
+  text-align: center;
+  font-size: 190px;
+  color: white;
+  padding-top: 20%;
+  margin-top: 0px;
+  position: relative;
+  top: 50px; }
+
+main {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  margin-top: 0px; }
+  main .navigation {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px; }
+    main .navigation .menus {
+      width: 100%;
+      overflow: hidden; }
+      main .navigation .menus .left-boxes {
+        width: 50%;
+        overflow: hidden;
+        display: inline-block;
+        float: left; }
+      main .navigation .menus button {
+        display: inline-block; }
+      main .navigation .menus .search-field {
+        overflow: hidden; }
+        main .navigation .menus .search-field img {
+          height: 25px;
+          float: left;
+          position: relative;
+          top: 2px; }
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid #003d3d;
+  margin-top: 10px;
+  padding: 20px; }
+
+/*# sourceMappingURL=main.css.map */
