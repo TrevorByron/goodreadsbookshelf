@@ -40,19 +40,20 @@ main li {
     border: 1px solid #003d3d; }
 main .dropdown {
   position: relative;
-  width: 265px;
+  width: 260px;
   min-width: 170px;
   text-align: center;
   border: 1px solid #003d3d;
   box-shadow: 0px 1px 2px #e0e0e0;
   margin: 10px 5px; }
 main .bookshelves {
-  z-index: 4;
-  align-self: flex-end; }
+  z-index: 4; }
 main .drop-nav {
   position: absolute;
   display: none;
-  border: 1px solid #003d3d; }
+  border: 1px solid #003d3d;
+  width: 260px;
+  left: -1px; }
 main .drop-nav li {
   width: 100%;
   margin: 0;
@@ -65,9 +66,12 @@ main a {
   padding: 5px 15px;
   text-decoration: none;
   color: #003d3d;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: background-color .1s; }
 main a:hover {
-  background-color: #fbf8f8; }
+  background-color: #fbf8f8;
+  color: #003d3d;
+  text-decoration: none; }
 main .navigation {
   overflow: hidden;
   width: 100%;
@@ -88,10 +92,13 @@ main .navigation {
   text-align: center;
   background: white url(../images/search.png) no-repeat 10px center;
   background-size: contain;
+  padding: 10px 10px 10px 32px;
   align-self: flex-end; }
   .search-field input {
-    border-radius: 30px;
-    outline: none; }
+    border-radius: 30px; }
+
+.search-field:focus {
+  outline: none; }
 
 .container {
   padding: 25px 100px;
@@ -99,7 +106,7 @@ main .navigation {
   width: 100%; }
 
 .book-display {
-  width: 260px;
+  width: 240px;
   margin: 20px 5px;
   text-align: left; }
   .book-display .image-holder {
@@ -139,7 +146,7 @@ header {
   .header-container .logo {
     margin: 0 auto;
     float: left;
-    width: 100px;
+    width: 110px;
     text-align: left; }
     .header-container .logo img {
       height: 45px; }
@@ -163,10 +170,8 @@ header {
   .header-container .search {
     float: right;
     text-align: right;
-    width: 100px;
-    margin-top: 10px; }
-    .header-container .search img {
-      height: 27px; }
+    width: 110px;
+    margin-top: 7px; }
 
 /* Hero */
 .hero img {
@@ -250,5 +255,41 @@ footer {
 
   .container {
     padding: 25px 100px; } }
+input {
+  outline: none; }
+
+input[type=search] {
+  appearance: textfield;
+  box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%; }
+
+input[type=search] {
+  background: url(../images/search.png) no-repeat center;
+  background-size: contain;
+  background-position: left;
+  border: none;
+  padding: 5px 10px 5px 32px;
+  width: 100px;
+  border-radius: 10em;
+  transition: all .5s; }
+
+#search {
+  float: right; }
+
+#search input[type=search] {
+  width: 15px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer; }
+
+#search input[type=search]:focus {
+  width: 500px;
+  padding-left: 40px;
+  color: #003d3d;
+  background-color: #fff;
+  width: 100px;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px #e0e0e0; }
 
 /*# sourceMappingURL=main.css.map */
