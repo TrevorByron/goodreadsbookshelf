@@ -264,7 +264,9 @@ footer {
     padding: 25px 5px; }
 
   .hero h1 {
-    display: none; } }
+    font-size: 35px;
+    padding-top: 26%;
+    top: 15px; } }
 @media (max-width: 766px) {
   .header-container nav {
     display: none; }
