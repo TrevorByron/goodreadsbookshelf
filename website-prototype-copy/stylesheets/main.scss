@@ -73,6 +73,7 @@ header {
    width: 100%;
    position: fixed;
    top: 65px;
+   z-index: -1;
 
  }
   h1 {
@@ -83,7 +84,7 @@ header {
       margin-top: 0px;
       position: relative;
       top: 50px;
-    z-index: 1;
+
     }
   }
 
