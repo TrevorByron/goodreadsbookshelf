@@ -1,12 +1,12 @@
-@import "partials/buttons";
-@import "partials/mixins";
+@import "partials/filters";
+@import "partials/variablesandclasses";
 @import "partials/books";
+@import "partials/media-queries";
 
 header {
   text-align: center;
   overflow: hidden;
   z-index: 3;
-
 
 }
 .header-container {
@@ -43,6 +43,10 @@ header {
           color: #23747c;
           text-decoration: none;
           }
+          a:hover{
+            border-bottom: 3px solid $lightgreen;
+            padding-bottom: 5px;
+          }
          }
         }
        }
@@ -60,7 +64,6 @@ header {
 
 
 .hero {
-
  img {
    width: 100%;
    position: fixed;
@@ -75,54 +78,29 @@ header {
       margin-top: 0px;
       position: relative;
       top: 50px;
+      z-index: -1;
     }
   }
 
 
 main {
   clear:both;
-  text-align: center;
   width: 100%;
   background-color: white;
   margin-top: 0px;
-  .navigation {
-    overflow: hidden;
-    width: 100%;
-    padding-top: 10px;
-    .menus {
-      width: 100%;
-      overflow: hidden;
-      .left-boxes {
-        width: 50%;
-        overflow: hidden;
-        display: inline-block;
-        float: left;
-      }
-    button {
 
-    display: inline-block;
-    }
-  .search-field {
-    overflow: hidden;
-    img {
-      height: 25px;
-      float: left;
-      position: relative;
-      top: 2px;
-     }
-    }
-   }
-  }
  }
 
  .flex-box {
    display:flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   padding-bottom: 50px;
  }
 
  footer {
    background-color: $footer;
+   overflow: hidden;
    ul{
      padding: 0px;
      display: inline-block;
@@ -132,16 +110,23 @@ main {
      display: block;
      margin: 6px;
      a {
-       color: $lightgreen;
+       color: $footertext;
        font-size: 12px;
      }
    }
-
+.logo-footer {
+  overflow: hidden;
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding-top: 70px;
+}
    img {
-     height: 150px;
-     float: right;
-     position: relative;
-     right: -100px;
-     bottom: -25px;
+     height: 45px;
+   }
+   p {
+  color: $footertext;
+  margin-bottom: 0px;
+  font-size: 11px;
    }
  }

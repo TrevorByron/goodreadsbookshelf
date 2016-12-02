@@ -1,0 +1,196 @@
+.container {
+  padding: 25px 100px;
+  margin: 0px;
+  width: 100%; }
+
+main .filters {
+  margin-top: 20px; }
+main ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px; }
+main li {
+  float: left;
+  display: inline-block;
+  background-color: white;
+  text-align: center; }
+  main li .form input {
+    border-radius: 30px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 30px;
+    text-align: center; }
+  main li .add {
+    background-color: #003d3d;
+    width: 45%;
+    color: white;
+    border: 1px solid #003d3d;
+    margin: 10px auto 20px auto;
+    transition: background-color .5s;
+    text-decoration: none; }
+  main li .add:hover {
+    background-color: white;
+    color: #003d3d;
+    border: 1px solid #003d3d; }
+main .dropdown {
+  position: relative;
+  width: 24%;
+  text-align: center;
+  border: 1px solid #003d3d; }
+main .sort {
+  margin-left: 15px; }
+main .drop-nav {
+  position: absolute;
+  display: none;
+  border: 1px solid #003d3d; }
+main .drop-nav li {
+  width: 100%;
+  margin: 0;
+  border-bottom: 0.5px solid #bfd2cf; }
+main .dropdown:hover .drop-nav {
+  display: block; }
+main a {
+  background-color: white;
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #003d3d;
+  text-decoration: none; }
+main a:hover {
+  background-color: #fbf8f8; }
+main .navigation {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 10px; }
+
+.search-field {
+  border-radius: 30px;
+  float: right;
+  color: #003d3d;
+  border: 1px solid #46898f;
+  height: 30px;
+  width: 20%;
+  background-color: white;
+  display: inline;
+  padding: 5px 40px;
+  text-align: center;
+  background: white url(../images/search.png) no-repeat 10px center;
+  background-size: contain; }
+  .search-field input {
+    border-radius: 30px; }
+
+.container {
+  padding: 25px 100px;
+  margin: 0px;
+  width: 100%; }
+
+.book-display {
+  width: 24%;
+  margin-top: 20px;
+  text-align: left; }
+  .book-display .image-holder {
+    height: 210px;
+    width: 100%;
+    overflow: hidden; }
+  .book-display img {
+    height: 400px; }
+  .book-display h3 {
+    font-size: 13px;
+    color: #003d3d;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .book-display h4 {
+    font-size: 13px;
+    color: #46898f;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  .book-display i {
+    color: #F8D64E; }
+
+header {
+  text-align: center;
+  overflow: hidden;
+  z-index: 3; }
+
+.header-container {
+  padding: 10px 20px;
+  background: #ebebeb;
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+  margin-bottom: 0px;
+  position: fixed;
+  z-index: 3; }
+  .header-container .logo {
+    margin: 0 auto;
+    float: left;
+    width: 100px;
+    text-align: left; }
+    .header-container .logo img {
+      height: 45px; }
+  .header-container .search {
+    float: right;
+    text-align: right;
+    width: 100px;
+    margin-top: 10px; }
+    .header-container .search img {
+      height: 27px; }
+
+.hero {
+  overflow: hidden; }
+  .hero img {
+    width: 100%;
+    position: fixed;
+    top: 65px;
+    display: block;
+    height: auto; }
+
+main {
+  clear: both;
+  width: 100%;
+  background-color: white;
+  margin-top: 0px;
+  text-align: center; }
+
+main::before {
+  content: "MY BOOKS";
+  color: black;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  top: -100px; }
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px; }
+
+footer {
+  background-color: #c7c5c5;
+  overflow: hidden; }
+  footer ul {
+    padding: 0px;
+    display: inline-block;
+    margin-right: 10px; }
+  footer li {
+    display: block;
+    margin: 6px; }
+    footer li a {
+      color: #9b9a9a;
+      font-size: 12px; }
+  footer .logo-footer {
+    overflow: hidden;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    padding-top: 70px; }
+  footer img {
+    height: 45px; }
+  footer p {
+    color: #9b9a9a;
+    margin-bottom: 0px;
+    font-size: 11px; }
+
+/*# sourceMappingURL=main.css.map */

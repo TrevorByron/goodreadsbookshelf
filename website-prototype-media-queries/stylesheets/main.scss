@@ -1,0 +1,111 @@
+@import "partials/filters";
+@import "partials/variablesandclasses";
+@import "partials/books";
+@import "partials/media-queries";
+
+header {
+  text-align: center;
+  overflow: hidden;
+  z-index: 3;
+
+}
+.header-container {
+  padding: 10px 20px;
+  background: #ebebeb;
+  overflow: hidden;
+  width: 100%;
+  top:0px;
+  margin-bottom: 0px;
+  position: fixed;
+    z-index: 3;
+
+  .logo{
+      margin: 0 auto;
+      float: left;
+      width: 100px;
+      text-align: left;
+      img {
+        height:45px;
+      }
+    }
+
+.search {
+  float: right;
+  text-align: right;
+  width: 100px;
+  margin-top: 10px;
+  img {
+    height: 27px;
+
+  }
+ }
+}
+
+
+.hero {
+  overflow: hidden;
+ img {
+   width: 100%;
+   position: fixed;
+   top: 65px;
+   display: block;
+   height: auto;
+ }
+}
+
+
+main {
+  clear:both;
+  width: 100%;
+  background-color: white;
+  margin-top: 0px;
+  text-align: center;
+ }
+ main::before {
+   content: "MY BOOKS";
+   color: black;
+   font-size: 50px;
+   font-weight: 500;
+   position: relative;
+   top: -100px;
+ }
+
+ .flex-box {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-bottom: 50px;
+ }
+
+ footer {
+   background-color: $footer;
+   overflow: hidden;
+   ul{
+     padding: 0px;
+     display: inline-block;
+     margin-right: 10px;
+   }
+   li {
+     display: block;
+     margin: 6px;
+     a {
+       color: $footertext;
+       font-size: 12px;
+     }
+   }
+.logo-footer {
+  overflow: hidden;
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding-top: 70px;
+}
+   img {
+     height: 45px;
+   }
+   p {
+  color: $footertext;
+  margin-bottom: 0px;
+  font-size: 11px;
+   }
+ }

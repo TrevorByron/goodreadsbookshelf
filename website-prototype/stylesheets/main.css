@@ -3,19 +3,66 @@
   margin: 0px;
   width: 100%; }
 
-button {
-  color: #003d3d;
-  border: 1px solid #46898f;
-  height: 30px;
-  width: 49%;
+main .filters {
+  margin-top: 20px; }
+main ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px; }
+main li {
+  float: left;
+  display: inline-block;
   background-color: white;
-  display: inline; }
-
-.right {
-  float: right; }
-
-.left {
-  float: left; }
+  text-align: center; }
+  main li .form input {
+    border-radius: 30px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 30px;
+    text-align: center; }
+  main li .add {
+    background-color: #003d3d;
+    width: 45%;
+    color: white;
+    border: 1px solid #003d3d;
+    margin: 10px auto 20px auto;
+    transition: background-color .5s;
+    text-decoration: none; }
+  main li .add:hover {
+    background-color: white;
+    color: #003d3d;
+    border: 1px solid #003d3d; }
+main .dropdown {
+  position: relative;
+  width: 24%;
+  text-align: center;
+  border: 1px solid #003d3d; }
+main .sort {
+  margin-left: 15px; }
+main .drop-nav {
+  position: absolute;
+  display: none;
+  border: 1px solid #003d3d; }
+main .drop-nav li {
+  width: 100%;
+  margin: 0;
+  border-bottom: 0.5px solid #bfd2cf; }
+main .dropdown:hover .drop-nav {
+  display: block; }
+main a {
+  background-color: white;
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #003d3d;
+  text-decoration: none; }
+main a:hover {
+  background-color: #fbf8f8; }
+main .navigation {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 10px; }
 
 .search-field {
   border-radius: 30px;
@@ -26,11 +73,12 @@ button {
   width: 20%;
   background-color: white;
   display: inline;
-  padding-left: 10px;
-  text-align: left; }
-  .search-field a {
-    color: #003d3d;
-    text-decoration: none; }
+  padding: 5px 40px;
+  text-align: center;
+  background: white url(../images/search.png) no-repeat 10px center;
+  background-size: contain; }
+  .search-field input {
+    border-radius: 30px; }
 
 .container {
   padding: 25px 100px;
@@ -60,6 +108,12 @@ button {
   .book-display i {
     color: #F8D64E; }
 
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 190px;
+    padding-top: 20%;
+    position: relative;
+    top: 50px; } }
 header {
   text-align: center;
   overflow: hidden;
@@ -95,6 +149,9 @@ header {
         .header-container nav ul li a {
           color: #23747c;
           text-decoration: none; }
+        .header-container nav ul li a:hover {
+          border-bottom: 3px solid #46898f;
+          padding-bottom: 5px; }
   .header-container .search {
     float: right;
     text-align: right;
@@ -115,43 +172,24 @@ header {
   padding-top: 20%;
   margin-top: 0px;
   position: relative;
-  top: 50px; }
+  top: 50px;
+  z-index: -1; }
 
 main {
   clear: both;
-  text-align: center;
   width: 100%;
   background-color: white;
   margin-top: 0px; }
-  main .navigation {
-    overflow: hidden;
-    width: 100%;
-    padding-top: 10px; }
-    main .navigation .menus {
-      width: 100%;
-      overflow: hidden; }
-      main .navigation .menus .left-boxes {
-        width: 50%;
-        overflow: hidden;
-        display: inline-block;
-        float: left; }
-      main .navigation .menus button {
-        display: inline-block; }
-      main .navigation .menus .search-field {
-        overflow: hidden; }
-        main .navigation .menus .search-field img {
-          height: 25px;
-          float: left;
-          position: relative;
-          top: 2px; }
 
 .flex-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-bottom: 50px; }
 
 footer {
-  background-color: #b7b7b7; }
+  background-color: #c7c5c5;
+  overflow: hidden; }
   footer ul {
     padding: 0px;
     display: inline-block;
@@ -160,13 +198,19 @@ footer {
     display: block;
     margin: 6px; }
     footer li a {
-      color: #46898f;
+      color: #9b9a9a;
       font-size: 12px; }
-  footer img {
-    height: 150px;
+  footer .logo-footer {
+    overflow: hidden;
+    text-align: right;
+    display: inline-block;
     float: right;
-    position: relative;
-    right: -100px;
-    bottom: -25px; }
+    padding-top: 70px; }
+  footer img {
+    height: 45px; }
+  footer p {
+    color: #9b9a9a;
+    margin-bottom: 0px;
+    font-size: 11px; }
 
 /*# sourceMappingURL=main.css.map */

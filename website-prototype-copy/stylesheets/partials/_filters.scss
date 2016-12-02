@@ -1,0 +1,133 @@
+@import "variablesandclasses";
+
+
+
+main {
+.filters {
+  margin-top: 20px;
+ }
+
+ .flex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+ li {
+   float: left;
+   display: inline-block;
+   background-color: white;
+   text-align: center;
+
+   .form {
+     input {
+       border-radius: 30px;
+       text-align: center;
+       width: 70%;
+       margin: 0 auto;
+       border-radius: 30px;
+       text-align: center;
+       }
+      }
+   .add {
+     background-color: $darkgreen;
+     width: 45%;
+     color: white;
+     border: 1px solid $darkgreen;
+     margin: 10px auto 20px auto;
+     transition: background-color .5s;
+     text-decoration: none;
+     }
+   .add:hover {
+     background-color: white;
+     color: $darkgreen;
+     border: 1px solid $darkgreen;
+    }
+   }
+
+.dropdown {
+     position: relative;
+     width: 260px;
+     min-width: 170px;
+     text-align: center;
+     border: 1px solid $darkgreen;
+      box-shadow: 0px 1px 2px #e0e0e0;
+      margin: 10px 5px;
+    }
+    .bookshelves {
+      z-index: 4;
+    }
+
+.drop-nav {
+     position: absolute;
+     display: none;
+     border: 1px solid $darkgreen;
+     width: 260px;
+     left: -1px;
+
+
+    }
+.drop-nav li {
+      width: 100%;
+      margin: 0;
+      border-bottom: .5px solid $listborder;
+
+
+
+    }
+.dropdown:hover .drop-nav,   .dropdown:focus .drop-nav {
+      display: block;
+
+
+    }
+a {
+    background-color: white;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: $darkgreen;
+    text-decoration: none;
+    transition: background-color .1s;
+   }
+ a:hover {
+  background-color: $selectedcolor;
+  color: $darkgreen;
+  text-decoration: none;
+ }
+
+
+}
+
+
+.search-field {
+box-shadow: 0px 1px 2px #e0e0e0;
+  margin: 10px;
+  border-radius: 30px;
+  float: right;
+  color: $darkgreen;
+  border:1px solid $darkgreen;
+  height: 32px;
+  width: 260px;
+  background-color: white;
+  display: inline;
+  padding: 5px 40px;
+  text-align: center;
+  background: white url(../images/search.png) no-repeat 10px center;
+  background-size: contain;
+  padding: 10px 10px 10px 32px;
+  align-self: flex-end;
+  input {
+    border-radius: 30px;
+  }
+
+}
+.search-field:focus {
+  outline: none;
+}
