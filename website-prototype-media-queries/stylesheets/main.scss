@@ -22,38 +22,17 @@ header {
   .logo{
       margin: 0 auto;
       float: left;
-      width: 200px;
+      width: 100px;
       text-align: left;
       img {
         height:45px;
       }
     }
-  nav {
-    display: inline-block;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 11px;
-    ul {
-      margin: 0 auto;
-      padding: 0px;
-      li {
-        display: inline-block;
-        padding: 0px 20px;
-        a {
-          color: #23747c;
-          text-decoration: none;
-          }
-          a:hover{
-            border-bottom: 3px solid $lightgreen;
-            padding-bottom: 5px;
-          }
-         }
-        }
-       }
+
 .search {
   float: right;
   text-align: right;
-  width: 200px;
+  width: 100px;
   margin-top: 10px;
   img {
     height: 27px;
@@ -64,23 +43,15 @@ header {
 
 
 .hero {
+  overflow: hidden;
  img {
    width: 100%;
    position: fixed;
    top: 65px;
-   z-index: -1;
+   display: block;
+   height: auto;
  }
-  h1 {
-      text-align: center;
-      font-size: 190px;
-      color: white;
-      padding-top: 20%;
-      margin-top: 0px;
-      position: relative;
-      top: 50px;
-      z-index: -1;
-    }
-  }
+}
 
 
 main {
@@ -88,7 +59,15 @@ main {
   width: 100%;
   background-color: white;
   margin-top: 0px;
-
+  text-align: center;
+ }
+ main::before {
+   content: "MY BOOKS";
+   color: black;
+   font-size: 50px;
+   font-weight: 500;
+   position: relative;
+   top: -100px;
  }
 
  .flex-box {

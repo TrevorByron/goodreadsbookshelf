@@ -1,0 +1,8 @@
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 190px;
+    padding-top: 20%;
+    position: relative;
+    top: 50px; } }
+
+/*# sourceMappingURL=media-queries.css.map */
