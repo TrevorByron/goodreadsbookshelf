@@ -175,7 +175,16 @@ main {
    .container {
      padding: 25px 5px;
    }
+   .hero {
+     h1{
+       font-size: 45px;
+       padding-top: 26%;
+       top: 18px;
+     }
    }
+   }
+
+
 @media  (max-width: 766px){
 .header-container {
   nav {
@@ -195,6 +204,7 @@ main {
 }
 }
 
+
 @media  (min-width: 767px) {
 .hero {
   h1{
@@ -207,6 +217,7 @@ main {
     padding: 25px 50px;}
 }
 
+
 @media  (min-width: 1024px) {
   .hero {
     h1{
@@ -216,5 +227,6 @@ main {
       }
     }
     .container {
-      padding: 25px 100px;}
+      padding: 25px 100px;
+    }
   }
