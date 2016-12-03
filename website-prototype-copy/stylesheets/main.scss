@@ -1,6 +1,6 @@
 /* Imports */
 
-@import "partials/filters";
+@import "partials/dropdownandsearch";
 @import "partials/variablesandclasses";
 @import "partials/books";
 @import "partials/media-queries";
@@ -14,8 +14,8 @@ header {
 }
 .header-container {
   padding: 10px 20px;
-  background: #ebebeb;
-  overflow: hidden;
+  background: $headercolor;
+  height: 65px;
   width: 100%;
   top:0px;
   margin-bottom: 0px;
@@ -58,6 +58,12 @@ header {
   text-align: right;
   width: 110px;
   margin-top: 7px;
+  .fa-bars {
+    color: $lightgreen;
+    font-size: 25px;
+    position: relative;
+    top: 4px;
+  }
     input {
       outline: none;
       }
@@ -70,9 +76,9 @@ header {
     input[type=search] {
       background:  url(../images/search.png) no-repeat center;
       background-size: contain;
-      background-position: left;
+      background-position: 7px 0px;
       border: none;
-      padding: 5px 10px 5px 32px;
+      padding: 3px 10px 3px 32px;
       width: 100px;
       border-radius: 10em;
       transition: all .5s;
@@ -179,6 +185,10 @@ main {
   nav {
     display: none;
   }
+  #search {
+    display: none;
+  }
+
 }
 .hero {
   h1{
@@ -195,6 +205,9 @@ main {
 
 
 @media  (min-width: 767px) {
+  .hamburger {
+    display: none;
+  }
 .hero {
   h1{
     font-size: 120px;
