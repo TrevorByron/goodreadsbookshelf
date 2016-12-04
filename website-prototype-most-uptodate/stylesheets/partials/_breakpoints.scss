@@ -1,0 +1,53 @@
+@media (max-width: 766px) {
+    .header-container {
+        nav {
+            display: none;
+        }
+
+        #search {
+            display: none;
+        }
+    }
+
+    .hero {
+        h1 {
+            font-size: 65px;
+            padding-top: 26%;
+            top: 24px;
+        }
+    }
+
+    .container {
+        padding: 25px 20px;
+    }
+}
+@media (min-width: 767px) {
+    .hamburger {
+        display: none;
+    }
+
+    .hero {
+        h1 {
+            font-size: 120px;
+            padding-top: 26%;
+            top: 35px;
+        }
+    }
+
+    .container {
+        padding: 25px 50px;
+    }
+}
+@media (min-width: 1024px) {
+    .hero {
+        h1 {
+            font-size: 190px;
+            padding-top: 20%;
+            top: 50px;
+        }
+    }
+
+    .container {
+        padding: 25px 100px;
+    }
+}
