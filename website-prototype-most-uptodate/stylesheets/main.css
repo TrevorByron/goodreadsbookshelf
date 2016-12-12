@@ -155,8 +155,22 @@ main .dropdown:hover .drop-nav {
     color: #46898f;
     margin-top: 5px;
     margin-bottom: 5px; }
-  .book-display i {
-    color: #F8D64E; }
+
+.rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 10px; }
+
+.stars {
+  display: flex;
+  flex-flow: reverse; }
+
+span {
+  padding: 3px;
+  font-size: 15px;
+  color: #F8D64E;
+  align-items: flex-start; }
 
 @media (max-width: 766px) {
   .header-container nav {

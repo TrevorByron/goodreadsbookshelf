@@ -26,13 +26,30 @@
     margin-bottom: 5px;
 
  }
- i {
-   color: $stargold;
 
- }
 }
 
 .image-holder:hover{
 
 
+}
+
+// stars //
+
+.rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 10px;
+
+}
+.stars {
+  display: flex;
+  flex-flow: reverse;
+}
+span {
+  padding: 3px;
+  font-size: 15px;
+  color: #F8D64E;
+    align-items: flex-start;
 }
