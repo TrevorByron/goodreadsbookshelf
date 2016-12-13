@@ -1,27 +1,26 @@
 .book-display {
-  width: 240px;
+  width: 220px;
   margin: 20px 5px;
   text-align: left;
   transition: size 1s;
 
   .image-holder {
-    height: 300px;
     width: 100%;
     overflow: hidden;
 
   }
   img {
-    height: 400px;
+    width: 220px;
   }
  h3 {
-   font-size: 13px;
-   color: $darkgreen;
+   font-size: 14px;
+   color: $darktext;
    margin-top: 5px;
    margin-bottom: 5px;
  }
  h4 {
    font-size: 13px;
-   color: $lightgreen;
+   color: $midtext;
     margin-top: 5px;
     margin-bottom: 5px;
 
@@ -29,10 +28,7 @@
 
 }
 
-.image-holder:hover{
 
-
-}
 
 // stars //
 

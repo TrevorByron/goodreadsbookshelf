@@ -26,14 +26,14 @@
             border-bottom: 1px solid $listborder;
 
             a {
-                color: $lightgreen;
+                color: $offwhite;
                 width: 100%;
                 padding: 0 20px;
             }
 
             a:hover {
                 text-decoration: none;
-                border-bottom: 3px solid $lightgreen;
+                border-bottom: 3px solid $offwhite;
                 padding-bottom: 21px;
             }
         }
@@ -48,8 +48,10 @@
 /* Main */
 
 main {
+
     .filters {
         margin-top: 20px;
+
     }
 
     .flex {
@@ -58,18 +60,18 @@ main {
         justify-content: center;
 
         a {
-            background-color: white;
+            background-color:  white;
             display: block;
             padding: 5px 15px;
             text-decoration: none;
-            color: $darkgreen;
+            color: $headercolor;
             text-decoration: none;
             transition: background-color 0.1s;
         }
 
         a:hover {
             background-color: $selectedcolor;
-            color: $darkgreen;
+            color: $headercolor;
             text-decoration: none;
         }
     }
@@ -98,10 +100,10 @@ main {
         }
 
         .add {
-            background-color: $darkgreen;
+            background-color: $darktext;
             width: 45%;
             color: white;
-            border: 1px solid $darkgreen;
+            border: 1px solid $darktext;
             margin: 10px auto 20px;
             transition: background-color 0.5s;
             text-decoration: none;
@@ -109,8 +111,8 @@ main {
 
         .add:hover {
             background-color: white;
-            color: $darkgreen;
-            border: 1px solid $darkgreen;
+            color: $darktext;
+            border: 1px solid $darktext;
         }
     }
 
@@ -119,7 +121,7 @@ main {
         width: 260px;
         min-width: 170px;
         text-align: center;
-        border: 1px solid $darkgreen;
+        border: 1px solid $darktext;
         margin: 10px 5px;
     }
 
@@ -130,7 +132,7 @@ main {
     .drop-nav {
         position: absolute;
         display: none;
-        border: 1px solid $darkgreen;
+        border: 1px solid $darktext;
         width: 260px;
         left: -1px;
     }
@@ -151,11 +153,10 @@ main {
     margin: 10px;
     border-radius: 30px;
     float: right;
-    color: $darkgreen;
-    border: 1px solid $darkgreen;
+    color: $darktext;
+    border: 1px solid $headercolor;
     height: 32px;
     width: 260px;
-    background-color: white;
     display: inline;
     padding: 5px 40px;
     text-align: center;

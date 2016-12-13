@@ -13,7 +13,7 @@
         h1 {
             font-size: 65px;
             padding-top: 26%;
-            top: 24px;
+            top: 29px;
         }
     }
 
@@ -21,7 +21,16 @@
         padding: 25px 20px;
     }
 }
-@media (min-width: 767px) {
+@media (min-width: 767px) and (max-width: 1023px){
+  .header-container {
+      nav {
+font-size: 14px;
+        ul {
+
+          li{
+            padding: 0px 7px;
+          }
+        }}}
     .hamburger {
         display: none;
     }
@@ -29,16 +38,20 @@
     .hero {
         h1 {
             font-size: 120px;
-            padding-top: 26%;
-            top: 35px;
+            padding-top: 25%;
+            top: 38px;
         }
     }
 
     .container {
         padding: 25px 50px;
     }
+
 }
 @media (min-width: 1024px) {
+  .hamburger {
+      display: none;
+  }
     .hero {
         h1 {
             font-size: 190px;
